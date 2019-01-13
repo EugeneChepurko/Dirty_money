@@ -1,0 +1,15 @@
+E:\STEP\myhomework2017\Dirty_money\Dirty_money\bin\Debug\Dirty_money.exe.config
+E:\STEP\myhomework2017\Dirty_money\Dirty_money\bin\Debug\Dirty_money.exe
+E:\STEP\myhomework2017\Dirty_money\Dirty_money\bin\Debug\Dirty_money.pdb
+E:\STEP\myhomework2017\Dirty_money\Dirty_money\obj\Debug\Dirty_money.csprojAssemblyReference.cache
+E:\STEP\myhomework2017\Dirty_money\Dirty_money\obj\Debug\MainWindow.g.cs
+E:\STEP\myhomework2017\Dirty_money\Dirty_money\obj\Debug\App.g.cs
+E:\STEP\myhomework2017\Dirty_money\Dirty_money\obj\Debug\Dirty_money_MarkupCompile.cache
+E:\STEP\myhomework2017\Dirty_money\Dirty_money\obj\Debug\Dirty_money_MarkupCompile.lref
+E:\STEP\myhomework2017\Dirty_money\Dirty_money\obj\Debug\MainWindow.baml
+E:\STEP\myhomework2017\Dirty_money\Dirty_money\obj\Debug\Dirty_money.g.resources
+E:\STEP\myhomework2017\Dirty_money\Dirty_money\obj\Debug\Dirty_money.Properties.Resources.resources
+E:\STEP\myhomework2017\Dirty_money\Dirty_money\obj\Debug\Dirty_money.csproj.GenerateResource.cache
+E:\STEP\myhomework2017\Dirty_money\Dirty_money\obj\Debug\Dirty_money.csproj.CoreCompileInputs.cache
+E:\STEP\myhomework2017\Dirty_money\Dirty_money\obj\Debug\Dirty_money.exe
+E:\STEP\myhomework2017\Dirty_money\Dirty_money\obj\Debug\Dirty_money.pdb

@@ -1,0 +1,110 @@
+﻿<Window x:Class="Dirty_money.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dirty_money"
+        mc:Ignorable="d"
+        Title="DirtyMoney" Height="440" Width="450">
+    <Grid RenderTransformOrigin="0.47,0.486">
+        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Margin="3,60,0,0">
+            <Label Content="420 - 459:" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Label Content="460 - 549:" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Label Content="550 - 600:" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Label Content="601 - 999:" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Label Content="1000 - 1800:" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Label Content="Дены:" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Label Content="Дены:" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Label Content="Дены:" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        </StackPanel>
+        <!--
+        <TextBox Name="tbDen1" HorizontalAlignment="Left" Height="23" Margin="78,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" ToolTip="Введите ваши дены"/>
+        <TextBox Name="tbDen2" HorizontalAlignment="Left" Height="23" Margin="78,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" ToolTip="Введите ваши дены"/>
+        <TextBox Name="tbDen3" HorizontalAlignment="Left" Height="23" Margin="78,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" ToolTip="Введите ваши дены"/>
+        <TextBox Name="tbDen4" HorizontalAlignment="Left" Height="23" Margin="78,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" ToolTip="Введите ваши дены"/>
+        <TextBox Name="tbDen5" HorizontalAlignment="Left" Height="23" Margin="78,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" ToolTip="Введите ваши дены"/>
+        <TextBox Name="tbDen6" HorizontalAlignment="Left" Height="23" Margin="78,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" ToolTip="Введите ваши дены"/>
+        <TextBox Name="tbDen7" HorizontalAlignment="Left" Height="23" Margin="78,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" ToolTip="Введите ваши дены"/>
+        <TextBox Name="tbDen8" HorizontalAlignment="Left" Height="23" Margin="78,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" ToolTip="Введите ваши дены"/>
+    -->
+        <Label Content="КГ" HorizontalAlignment="Left" Margin="103,60,0,0" VerticalAlignment="Top"/>
+        <Label Content="КГ" HorizontalAlignment="Left" Margin="103,216,0,0" VerticalAlignment="Top"/>
+        <Label Content="КГ" HorizontalAlignment="Left" Margin="103,190,0,0" VerticalAlignment="Top"/>
+        <Label Content="КГ" HorizontalAlignment="Left" Margin="103,164,0,0" VerticalAlignment="Top"/>
+        <Label Content="КГ" HorizontalAlignment="Left" Margin="103,138,0,0" VerticalAlignment="Top"/>
+        <Label Content="КГ" HorizontalAlignment="Left" Margin="103,112,0,0" VerticalAlignment="Top"/>
+        <Label Content="КГ" HorizontalAlignment="Left" Margin="103,86,0,0" VerticalAlignment="Top"/>
+        <Label Content="КГ" HorizontalAlignment="Left" Margin="103,242,0,0" VerticalAlignment="Top"/>
+
+        <TextBox Name="tbKg1" HorizontalAlignment="Left" Height="23" Margin="131,64,0,0" VerticalAlignment="Top" Width="56" ToolTip="Сколько КГ сделали?" PreviewTextInput="TbKg1_PreviewTextInput"/>
+        <TextBox Name="tbKg2" HorizontalAlignment="Left" Height="23" Margin="131,90,0,0" VerticalAlignment="Top" Width="56" ToolTip="Сколько КГ сделали?" PreviewTextInput="TbKg1_PreviewTextInput"/>
+        <TextBox Name="tbKg3" HorizontalAlignment="Left" Height="23" Margin="131,116,0,0" VerticalAlignment="Top" Width="56" ToolTip="Сколько КГ сделали?" PreviewTextInput="TbKg1_PreviewTextInput"/>
+        <TextBox Name="tbKg4" HorizontalAlignment="Left" Height="23" Margin="131,142,0,0" VerticalAlignment="Top" Width="56" ToolTip="Сколько КГ сделали?" PreviewTextInput="TbKg1_PreviewTextInput"/>
+        <TextBox Name="tbKg5" HorizontalAlignment="Left" Height="23" Margin="131,168,0,0" VerticalAlignment="Top" Width="56" ToolTip="Сколько КГ сделали?" PreviewTextInput="TbKg1_PreviewTextInput"/>
+        <TextBox Name="tbKg6" HorizontalAlignment="Left" Height="23" Margin="131,194,0,0" VerticalAlignment="Top" Width="56" ToolTip="Сколько КГ сделали?" PreviewTextInput="TbKg1_PreviewTextInput"/>
+        <TextBox Name="tbKg7" HorizontalAlignment="Left" Height="23" Margin="131,220,0,0" VerticalAlignment="Top" Width="56" ToolTip="Сколько КГ сделали?" PreviewTextInput="TbKg1_PreviewTextInput"/>
+        <TextBox Name="tbKg8" HorizontalAlignment="Left" Height="23" Margin="131,246,0,0" VerticalAlignment="Top" Width="56" ToolTip="Сколько КГ сделали?" PreviewTextInput="TbKg1_PreviewTextInput"/>
+        <TextBox Name="tbKg9" HorizontalAlignment="Left" Height="23" Margin="131,300,0,0" VerticalAlignment="Top" Width="56" PreviewTextInput="TbKg1_PreviewTextInput"/>
+
+        <Label Content="ГРН:" HorizontalAlignment="Left" Margin="305,60,0,0" VerticalAlignment="Top"/>
+        <Label Content="ГРН:" HorizontalAlignment="Left" Margin="305,215,0,0" VerticalAlignment="Top"/>
+        <Label Content="ГРН:" HorizontalAlignment="Left" Margin="305,189,0,0" VerticalAlignment="Top"/>
+        <Label Content="ГРН:" HorizontalAlignment="Left" Margin="305,163,0,0" VerticalAlignment="Top"/>
+        <Label Content="ГРН:" HorizontalAlignment="Left" Margin="305,137,0,0" VerticalAlignment="Top"/>
+        <Label Content="ГРН:" HorizontalAlignment="Left" Margin="305,111,0,0" VerticalAlignment="Top"/>
+        <Label Content="ГРН:" HorizontalAlignment="Left" Margin="305,85,0,0" VerticalAlignment="Top"/>
+        <Label Content="ГРН:" HorizontalAlignment="Left" Margin="305,241,0,0" VerticalAlignment="Top"/>
+
+        <TextBox Name="tbCash1" HorizontalAlignment="Left" Height="23" Margin="339,64,0,0" VerticalAlignment="Top" Width="56" ToolTip="Вы заработали"/>
+        <TextBox Name="tbCash2" HorizontalAlignment="Left" Height="23" Margin="339,90,0,0" VerticalAlignment="Top" Width="56" ToolTip="Вы заработали"/>
+        <TextBox Name="tbCash3" HorizontalAlignment="Left" Height="23" Margin="339,116,0,0" VerticalAlignment="Top" Width="56" ToolTip="Вы заработали"/>
+        <TextBox Name="tbCash4" HorizontalAlignment="Left" Height="23" Margin="339,142,0,0" VerticalAlignment="Top" Width="56" ToolTip="Вы заработали"/>
+        <TextBox Name="tbCash5" HorizontalAlignment="Left" Height="23" Margin="339,168,0,0" VerticalAlignment="Top" Width="56" ToolTip="Вы заработали"/>
+        <TextBox Name="tbCash6" HorizontalAlignment="Left" Height="23" Margin="339,194,0,0" VerticalAlignment="Top" Width="56" ToolTip="Вы заработали"/>
+        <TextBox Name="tbCash7" HorizontalAlignment="Left" Height="23" Margin="339,220,0,0" VerticalAlignment="Top" Width="56" ToolTip="Вы заработали"/>
+        <TextBox Name="tbCash8" HorizontalAlignment="Left" Height="23" Margin="339,246,0,0" VerticalAlignment="Top" Width="56" ToolTip="Вы заработали"/>
+        <TextBox Name="tbCash9" HorizontalAlignment="Left" Height="23" Margin="339,300,0,0" VerticalAlignment="Top" Width="56" ToolTip="Ваш итоговый заработок"/>
+
+        <Label Content="Ставка:" HorizontalAlignment="Left" Margin="191,60,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ставка:" HorizontalAlignment="Left" Margin="191,216,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ставка:" HorizontalAlignment="Left" Margin="191,190,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ставка:" HorizontalAlignment="Left" Margin="191,164,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ставка:" HorizontalAlignment="Left" Margin="191,138,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ставка:" HorizontalAlignment="Left" Margin="191,112,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ставка:" HorizontalAlignment="Left" Margin="191,86,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ставка:" HorizontalAlignment="Left" Margin="191,242,0,0" VerticalAlignment="Top"/>
+
+        <TextBox Name="tbRate1" HorizontalAlignment="Left" Height="23" Margin="245,64,0,0" VerticalAlignment="Top" Width="56" ToolTip="На сколько ставок стояли? Вводить через ТОЧКУ!" PreviewTextInput="TbKg1_PreviewTextInput"/>
+        <TextBox Name="tbRate2" HorizontalAlignment="Left" Height="23" Margin="245,90,0,0" VerticalAlignment="Top" Width="56" ToolTip="На сколько ставок стояли? Вводить через ТОЧКУ!" PreviewTextInput="TbKg1_PreviewTextInput"/>
+        <TextBox Name="tbRate3" HorizontalAlignment="Left" Height="23" Margin="245,116,0,0" VerticalAlignment="Top" Width="56" ToolTip="На сколько ставок стояли? Вводить через ТОЧКУ!" PreviewTextInput="TbKg1_PreviewTextInput"/>
+        <TextBox Name="tbRate4" HorizontalAlignment="Left" Height="23" Margin="245,142,0,0" VerticalAlignment="Top" Width="56" ToolTip="На сколько ставок стояли? Вводить через ТОЧКУ!" PreviewTextInput="TbKg1_PreviewTextInput"/>
+        <TextBox Name="tbRate5" HorizontalAlignment="Left" Height="23" Margin="245,168,0,0" VerticalAlignment="Top" Width="56" ToolTip="На сколько ставок стояли? Вводить через ТОЧКУ!" PreviewTextInput="TbKg1_PreviewTextInput"/>
+        <TextBox Name="tbRate6" HorizontalAlignment="Left" Height="23" Margin="245,194,0,0" VerticalAlignment="Top" Width="56" ToolTip="На сколько ставок стояли? Вводить через ТОЧКУ!" PreviewTextInput="TbKg1_PreviewTextInput"/>
+        <TextBox Name="tbRate7" HorizontalAlignment="Left" Height="23" Margin="245,220,0,0" VerticalAlignment="Top" Width="56" ToolTip="На сколько ставок стояли? Вводить через ТОЧКУ!" PreviewTextInput="TbKg1_PreviewTextInput"/>
+        <TextBox Name="tbRate8" HorizontalAlignment="Left" Height="23" Margin="245,246,0,0" VerticalAlignment="Top" Width="56" ToolTip="На сколько ставок стояли? Вводить через ТОЧКУ!" PreviewTextInput="TbKg1_PreviewTextInput"/>
+
+        <Label Content="Итого КГ:" HorizontalAlignment="Left" Margin="103,274,0,0" VerticalAlignment="Top"/>
+        <Label Content="Итого ГРН:" HorizontalAlignment="Left" Margin="305,274,0,0" VerticalAlignment="Top"/>
+
+        <Label Content="Выберите должность" HorizontalAlignment="Left" Margin="3,3,0,0" VerticalAlignment="Top" Background="Brown" Foreground="White"/>
+        <ComboBox Name="cbMach" HorizontalAlignment="Left" Margin="3,29,0,0" VerticalAlignment="Top" Width="126" ToolTip="Кто ты по жизни?">
+            <TextBlock>Машинист</TextBlock>
+            <TextBlock>Оператор</TextBlock>
+        </ComboBox>
+
+        <Label Content="Выберите экструдер" HorizontalAlignment="Left" Margin="137,3,0,0" VerticalAlignment="Top" Background="Brown" Foreground="White"/>
+        <ComboBox Name="cbExt" HorizontalAlignment="Left" Margin="137,29,0,0" VerticalAlignment="Top" Width="122" ToolTip="Откуда будешь?">
+            <TextBlock><Run Text="1,2,3 экс."/></TextBlock>
+            <TextBlock><Run Text="4-й экс."/></TextBlock>
+        </ComboBox>
+
+        <Label Content="Это нить ФБР?" HorizontalAlignment="Left" Margin="267,3,0,0" VerticalAlignment="Top" Background="Brown" Foreground="White"/>
+        <ComboBox Name="cbFBR" HorizontalAlignment="Left" Margin="267,29,0,0" VerticalAlignment="Top" Width="88" ToolTip="Нитка фибра или нет?">
+            <TextBlock>ДА</TextBlock>
+            <TextBlock>НЕТ</TextBlock>
+        </ComboBox>
+
+        <Button Content="Рассчитать" HorizontalAlignment="Left" Margin="48,354,0,0" VerticalAlignment="Top" Width="297" Click="calc"/>
+
+    </Grid>
+</Window>
