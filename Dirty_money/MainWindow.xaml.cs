@@ -44,16 +44,12 @@ namespace Dirty_money
         const double mach1500_1700_color_FBR_4EX = 0.56448;
         const double oper1500_1700_color_FBR_4EX = 0.38925;
 
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
+        public MainWindow() => InitializeComponent();
 
-        private void calc(object sender, RoutedEventArgs e)
+        private void Calc(object sender, RoutedEventArgs e)
         {
             double result1, result2, result3, result4, result5, result6, result7, result8, result9, result10, result11 = 0;
             double sumSalary = 0;
-
             try
             {
                 //420 - 440
@@ -63,8 +59,8 @@ namespace Dirty_money
                     {
                         result1 = double.Parse(tbKg1.Text, CultureInfo.InvariantCulture) * double.Parse(tbRate1.Text, CultureInfo.InvariantCulture) * mach420_459;
                         tbCash1.Text = result1.ToString();
-                        tbCash12.Text += tbCash1.Text;
-                        tbCash12.Text = tbCash12.ToString();
+                        sumSalary += Convert.ToDouble(tbCash1.Text);
+                        tbCash12.Text = Convert.ToDouble(sumSalary).ToString();
                     }
                 }
                 if (cbMach.Text == "Оператор")
@@ -73,7 +69,8 @@ namespace Dirty_money
                     {
                         result1 = double.Parse(tbKg1.Text, CultureInfo.InvariantCulture) * double.Parse(tbRate1.Text, CultureInfo.InvariantCulture) * oper420_459;
                         tbCash1.Text = result1.ToString();
-                        tbCash12.Text += tbCash1.Text;
+                        sumSalary += Convert.ToDouble(tbCash1.Text);
+                        tbCash12.Text = Convert.ToDouble(sumSalary).ToString();
                     }
                 }
 
@@ -84,8 +81,8 @@ namespace Dirty_money
                     {
                         result2 = double.Parse(tbKg2.Text, CultureInfo.InvariantCulture) * double.Parse(tbRate2.Text, CultureInfo.InvariantCulture) * mach460_549;
                         tbCash2.Text = result2.ToString();
-                        tbCash12.Text += tbCash2.Text;
-                        tbCash12.Text = tbCash12.ToString();
+                        sumSalary += Convert.ToDouble(tbCash2.Text);
+                        tbCash12.Text = Convert.ToDouble(sumSalary).ToString();
                     }
                 }
                 if (cbMach.Text == "Оператор")
@@ -94,8 +91,8 @@ namespace Dirty_money
                     {
                         result2 = double.Parse(tbKg2.Text, CultureInfo.InvariantCulture) * double.Parse(tbRate2.Text, CultureInfo.InvariantCulture) * oper460_549;
                         tbCash2.Text = result2.ToString();
-                        tbCash12.Text += tbCash2.Text;
-                        tbCash12.Text = tbCash12.ToString();
+                        sumSalary += Convert.ToDouble(tbCash2.Text);
+                        tbCash12.Text = Convert.ToDouble(sumSalary).ToString();
                     }
                 }
 
@@ -106,6 +103,8 @@ namespace Dirty_money
                     {
                         result3 = double.Parse(tbKg3.Text, CultureInfo.InvariantCulture) * double.Parse(tbRate3.Text, CultureInfo.InvariantCulture) * mach550_600;
                         tbCash3.Text = result3.ToString();
+                        sumSalary += Convert.ToDouble(tbCash3.Text);
+                        tbCash12.Text = Convert.ToDouble(sumSalary).ToString();
                     }
                 }
                 if (cbMach.Text == "Оператор")
@@ -114,6 +113,8 @@ namespace Dirty_money
                     {
                         result3 = double.Parse(tbKg3.Text, CultureInfo.InvariantCulture) * double.Parse(tbRate3.Text, CultureInfo.InvariantCulture) * oper550_600;
                         tbCash3.Text = result3.ToString();
+                        sumSalary += Convert.ToDouble(tbCash3.Text);
+                        tbCash12.Text = Convert.ToDouble(sumSalary).ToString();
                     }
                 }
 
@@ -124,6 +125,8 @@ namespace Dirty_money
                     {
                         result4 = double.Parse(tbKg4.Text, CultureInfo.InvariantCulture) * double.Parse(tbRate4.Text, CultureInfo.InvariantCulture) * mach601_999;
                         tbCash4.Text = result4.ToString();
+                        sumSalary += Convert.ToDouble(tbCash4.Text);
+                        tbCash12.Text = Convert.ToDouble(sumSalary).ToString();
                     }
                 }
                 if (cbMach.Text == "Оператор")
@@ -132,6 +135,8 @@ namespace Dirty_money
                     {
                         result4 = double.Parse(tbKg4.Text, CultureInfo.InvariantCulture) * double.Parse(tbRate4.Text, CultureInfo.InvariantCulture) * oper601_999;
                         tbCash4.Text = result4.ToString();
+                        sumSalary += Convert.ToDouble(tbCash4.Text);
+                        tbCash12.Text = Convert.ToDouble(sumSalary).ToString();
                     }
                 }
 
@@ -142,6 +147,8 @@ namespace Dirty_money
                     {
                         result5 = double.Parse(tbKg5.Text, CultureInfo.InvariantCulture) * double.Parse(tbRate5.Text, CultureInfo.InvariantCulture) * mach1000_1800;
                         tbCash5.Text = result5.ToString();
+                        sumSalary += Convert.ToDouble(tbCash5.Text);
+                        tbCash12.Text = Convert.ToDouble(sumSalary).ToString();
                     }
                 }
                 if (cbMach.Text == "Оператор")
@@ -150,6 +157,8 @@ namespace Dirty_money
                     {
                         result5 = double.Parse(tbKg5.Text, CultureInfo.InvariantCulture) * double.Parse(tbRate5.Text, CultureInfo.InvariantCulture) * oper1000_1800;
                         tbCash5.Text = result5.ToString();
+                        sumSalary += Convert.ToDouble(tbCash5.Text);
+                        tbCash12.Text = Convert.ToDouble(sumSalary).ToString();
                     }
                 }
 
@@ -160,6 +169,8 @@ namespace Dirty_money
                     {
                         result6 = double.Parse(tbKg6.Text, CultureInfo.InvariantCulture) * double.Parse(tbRate6.Text, CultureInfo.InvariantCulture) * mach600_850_color;
                         tbCash6.Text = result6.ToString();
+                        sumSalary += Convert.ToDouble(tbCash6.Text);
+                        tbCash12.Text = Convert.ToDouble(sumSalary).ToString();
                     }
                 }
                 if (cbMach.Text == "Оператор")
@@ -168,6 +179,8 @@ namespace Dirty_money
                     {
                         result6 = double.Parse(tbKg6.Text, CultureInfo.InvariantCulture) * double.Parse(tbRate6.Text, CultureInfo.InvariantCulture) * oper600_850_color;
                         tbCash6.Text = result6.ToString();
+                        sumSalary += Convert.ToDouble(tbCash6.Text);
+                        tbCash12.Text = Convert.ToDouble(sumSalary).ToString();
                     }
                 }
 
@@ -178,6 +191,8 @@ namespace Dirty_money
                     {
                         result7 = double.Parse(tbKg7.Text, CultureInfo.InvariantCulture) * double.Parse(tbRate7.Text, CultureInfo.InvariantCulture) * mach1000_1800_color;
                         tbCash7.Text = result7.ToString();
+                        sumSalary += Convert.ToDouble(tbCash7.Text);
+                        tbCash12.Text = Convert.ToDouble(sumSalary).ToString();
                     }
                 }
                 if (cbMach.Text == "Оператор")
@@ -186,6 +201,8 @@ namespace Dirty_money
                     {
                         result7 = double.Parse(tbKg7.Text, CultureInfo.InvariantCulture) * double.Parse(tbRate7.Text, CultureInfo.InvariantCulture) * oper1000_1800_color;
                         tbCash7.Text = result7.ToString();
+                        sumSalary += Convert.ToDouble(tbCash7.Text);
+                        tbCash12.Text = Convert.ToDouble(sumSalary).ToString();
                     }
                 }
 
@@ -196,6 +213,8 @@ namespace Dirty_money
                     {
                         result8 = double.Parse(tbKg8.Text, CultureInfo.InvariantCulture) * double.Parse(tbRate8.Text, CultureInfo.InvariantCulture) * mach1000_1800_4EX;
                         tbCash8.Text = result8.ToString();
+                        sumSalary += Convert.ToDouble(tbCash8.Text);
+                        tbCash12.Text = Convert.ToDouble(sumSalary).ToString();
                     }
                 }
                 if (cbMach.Text == "Оператор")
@@ -204,6 +223,8 @@ namespace Dirty_money
                     {
                         result8 = double.Parse(tbKg8.Text, CultureInfo.InvariantCulture) * double.Parse(tbRate8.Text, CultureInfo.InvariantCulture) * oper1000_1800_4EX;
                         tbCash8.Text = result8.ToString();
+                        sumSalary += Convert.ToDouble(tbCash8.Text);
+                        tbCash12.Text = Convert.ToDouble(sumSalary).ToString();
                     }
                 }
 
@@ -214,6 +235,8 @@ namespace Dirty_money
                     {
                         result9 = double.Parse(tbKg9.Text, CultureInfo.InvariantCulture) * double.Parse(tbRate9.Text, CultureInfo.InvariantCulture) * mach1000_1800_color_4EX;
                         tbCash9.Text = result9.ToString();
+                        sumSalary += Convert.ToDouble(tbCash9.Text);
+                        tbCash12.Text = Convert.ToDouble(sumSalary).ToString();
                     }
                 }
                 if (cbMach.Text == "Оператор")
@@ -222,6 +245,8 @@ namespace Dirty_money
                     {
                         result9 = double.Parse(tbKg9.Text, CultureInfo.InvariantCulture) * double.Parse(tbRate9.Text, CultureInfo.InvariantCulture) * oper1000_1800_color_4EX;
                         tbCash9.Text = result9.ToString();
+                        sumSalary += Convert.ToDouble(tbCash9.Text);
+                        tbCash12.Text = Convert.ToDouble(sumSalary).ToString();
                     }
                 }
 
@@ -232,6 +257,8 @@ namespace Dirty_money
                     {
                         result10 = double.Parse(tbKg10.Text, CultureInfo.InvariantCulture) * double.Parse(tbRate10.Text, CultureInfo.InvariantCulture) * mach1500_1700_FBR_4EX;
                         tbCash10.Text = result10.ToString();
+                        sumSalary += Convert.ToDouble(tbCash10.Text);
+                        tbCash12.Text = Convert.ToDouble(sumSalary).ToString();
                     }
                 }
                 if (cbMach.Text == "Оператор")
@@ -240,8 +267,11 @@ namespace Dirty_money
                     {
                         result10 = double.Parse(tbKg10.Text, CultureInfo.InvariantCulture) * double.Parse(tbRate10.Text, CultureInfo.InvariantCulture) * oper1500_1700_FBR_4EX;
                         tbCash10.Text = result10.ToString();
+                        sumSalary += Convert.ToDouble(tbCash10.Text);
+                        tbCash12.Text = Convert.ToDouble(sumSalary).ToString();
                     }
                 }
+
                 //1500 - 1700 4ex FBR color
                 if (cbMach.Text == "Машинист")
                 {
@@ -249,6 +279,8 @@ namespace Dirty_money
                     {
                         result11 = double.Parse(tbKg11.Text, CultureInfo.InvariantCulture) * double.Parse(tbRate11.Text, CultureInfo.InvariantCulture) * mach1500_1700_color_FBR_4EX;
                         tbCash11.Text = result11.ToString();
+                        sumSalary += Convert.ToDouble(tbCash11.Text);
+                        tbCash12.Text = Convert.ToDouble(sumSalary).ToString();
                     }
                 }
                 if (cbMach.Text == "Оператор")
@@ -257,10 +289,10 @@ namespace Dirty_money
                     {
                         result11 = double.Parse(tbKg11.Text, CultureInfo.InvariantCulture) * double.Parse(tbRate11.Text, CultureInfo.InvariantCulture) * oper1500_1700_color_FBR_4EX;
                         tbCash11.Text = result11.ToString();
+                        sumSalary += Convert.ToDouble(tbCash11.Text);
+                        tbCash12.Text = Convert.ToDouble(sumSalary).ToString();
                     }
                 }
-                
-
             }
             catch (Exception ex)
             {

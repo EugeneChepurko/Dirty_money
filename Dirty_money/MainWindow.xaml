@@ -118,7 +118,7 @@
             <TextBlock>Оператор</TextBlock>
         </ComboBox>
 
-        <Button Content="Рассчитать" HorizontalAlignment="Left" Margin="77,419,0,0" VerticalAlignment="Top" Width="297" Click="calc"/>
+        <Button Content="Рассчитать" HorizontalAlignment="Left" Margin="77,419,0,0" VerticalAlignment="Top" Width="297" Click="Calc"/>
 
     </Grid>
 </Window>
