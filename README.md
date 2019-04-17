@@ -1,2 +1,2 @@
 # Dirty_money
-Program for calculate salary.
+This program for calculate my salary.
